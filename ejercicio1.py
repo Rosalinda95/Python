@@ -1,9 +1,11 @@
-a=int(input("ingrese el primer numero \n"))
-b=int(input("ingrese el segundo numero \n"))
-c=int(input("ingrese el tercer numero \n"))
+#Ejercicio 1. obtener la media de 3 números.
 
-lista=(a,b,c)
-media=((a+b+c)/3)
+def Media():
+    a=int(input("ingrese el primer numero \n"))
+    b=int(input("ingrese el segundo numero \n"))
+    c=int(input("ingrese el tercer numero \n"))
 
-print ("los numeros ingresados son \n"+ str (lista))
-print ("la media de los numeros es \n"+ str (media))
+    media=((a+b+c)/3)
+
+    print ("la media de los numeros es \n"+ str (media))
+Media()

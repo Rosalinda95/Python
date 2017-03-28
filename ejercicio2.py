@@ -1,6 +1,10 @@
-a=int(input("ingrese el radio de la esfera \n"))
+#Ejercicio 2. obtener el volumen de una esfera
 
-volumen = ((4/3)*3.1416)*(a**3)
+def Volumen():
+    a=int(input("ingrese el radio de la esfera \n"))
 
-print ("el volumen de la esfera es \n"+ str (volumen))
+    volumen = ((4/3)*3.1416)*(a**3)
 
+    print ("el volumen de la esfera es \n"+ str (volumen))
+
+Volumen()

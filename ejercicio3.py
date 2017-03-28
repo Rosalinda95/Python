@@ -1,7 +1,9 @@
-n = 13
-h = ''
-while n <= 32:
-    if n%2 != 0:
-        h += ' %i' % n
-    n += 1
-print (h)
+#Ejercicio 3. Numeros impares empezando desde el numero 13
+def Impares():
+    x=int(1)
+    n= int(13)
+    while x<=10 : 
+        print(str(n))
+        n+=2
+        x=x+1
+Impares()
